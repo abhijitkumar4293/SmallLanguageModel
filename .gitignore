@@ -1,0 +1,78 @@
+# Data files (too large for git)
+data/*
+data/wc/*
+data/raw/*
+data/processed/*
+data/sft/*
+data/rlhf/*
+data/temp/*
+
+# Model checkpoints
+checkpoints/*
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# Tokenizer files (keep .py, ignore .model)
+tokenizer/*.model
+tokenizer/*.vocab
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Conda
+environment_export.yml
+.conda/
+*.conda
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Environment variables
+.env
+.env.local
+
+# Logs
+*.log
+logs/
+
+# Keep directory structure
+!data/.gitkeep
+!data/wc/.gitkeep
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!checkpoints/.gitkeep

@@ -1,0 +1,13 @@
+# Core dependencies for data collection
+praw>=7.7.0
+requests>=2.31.0
+numpy>=1.24.0
+pandas>=2.0.0
+tqdm>=4.65.0
+
+# Hugging Face datasets (for Wikipedia, WikiText, etc.)
+datasets>=2.14.0
+
+# Optional: for Hindi romanization
+# Uncomment if you want to convert Devanagari to Latin script
+# indic-transliteration>=2.3.0
